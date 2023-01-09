@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $mainFont;
+  font-synthesis: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+}
+
+/*--------------
+ disable touch
+ blue layer on
+ mobile devices
+--------------*/
+input,
+textarea,
+button,
+select,
+a,
+div,
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+// html {
+//     font-size: 62.5%;
+//     scroll-behavior: smooth;
+//     scroll-padding-top: 120px;
+//     -webkit-text-size-adjust: none;
+// }
+
+main {
+  overflow: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-weight: $bold;
+}
+
+// @media screen and (min-width: 1921px) {
+//     html {
+//         font-size: 75%;
+//     }
+// }
+
+// @media screen and (max-width: 1600px) {
+//     html {
+//         font-size: 55%;
+//     }
+// }
+
+// @media screen and (max-width: 1440px) {
+//     html {
+//         font-size: 50%;
+//     }
+// }

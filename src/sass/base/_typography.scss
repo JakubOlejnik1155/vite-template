@@ -1,0 +1,26 @@
+/*--------------
+  import from file
+--------------*/
+//@font-face {
+//  font-family: 'georgia';
+//  font-style: italic;
+//  src: url("../assets/fonts/georgiai.ttf");
+//}
+
+/*--------------
+  import from CDN
+--------------*/
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+$mainFont: 'Arial', sans-serif;
+
+/*--------------
+  font weights
+--------------*/
+$extraLight: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semiBold: 600;
+$bold: 700;
+$fontBlack: 900;

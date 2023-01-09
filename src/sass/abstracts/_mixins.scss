@@ -1,0 +1,15 @@
+@mixin setFont($family, $size: 1.6rem, $lineHeight: 2.8rem, $color: black, $weight: 400) {
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    line-height: $lineHeight;
+}
+
+@mixin cutText($lineNumber) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $lineNumber;
+    -webkit-box-orient: vertical;
+}
