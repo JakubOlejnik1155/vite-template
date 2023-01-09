@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + TS</title>
-</head>
+  <body class="p-20">
+    {{>header}}
 
-<body>
-  {{>header}}
-  <h1>Siema</h1>
-  <p>Cześć</p>
-  <a href="jakubolejnik.pl">tutaj link</a>
-  <img src="./src/assets/fishing-boat-g8746ffb16_1920.jpg" alt="boat">
-  <script type="module" src="/src/ts/main.ts"></script>
-</body>
-
+    <main class="py-20">
+      <img src="./src/assets//vite.svg" alt="vite">
+      <h1>Vite and TS template</h1>
+      <p>Using sass 7.1 pattern</h2>
+    </main>
+    {{>footer}}
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
 </html>
